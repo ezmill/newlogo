@@ -24,7 +24,7 @@ function init(){
     normalCamera.position.z = 3500;
     normalRenderer = new THREE.WebGLRenderer({preserveDrawingBuffer:true});
     normalRenderer.setSize( renderSize.x, renderSize.y );
-    normalRenderer.setClearColor(0xffffff,1.0);
+    normalRenderer.setClearColor(0x000000,1.0);
 
     ambientLight = new THREE.AmbientLight( 0xffffff );
     normalScene.add( ambientLight );
